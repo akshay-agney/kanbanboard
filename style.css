@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: 'Gilroy';
+}
+
+html, body {
+     height: 100%;
+     width: 100%;
+}
+.main{
+     width: 100%;
+     /* overflow: hidden; */
+     /* position: relative; */
+}
+
+/* !..........nav bar css start.......  */
+
+.toolbox-cont{
+    height: 15vh;
+    background-color: #323131;
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.toolbox-priority-cont{
+    height: 70%;
+    width: 35%;
+    background-color: #484747;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    /* margin-left: 4rem; */
+}
+
+.color{
+    height: 60%;
+    width: 20%;
+}
+.color:hover{
+    background-color: #938c8c6f;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: #C6EBC5;
+}
+.blue{
+    background-color: #AEDEFC;
+}
+.red{
+    background-color: #e26565;
+}
+
+.action-btn-cont{
+    height: 70%;
+    width: 10%;
+    background-color: #484747;
+    display: flex;
+    border-radius: 5px;
+}
+.add-btn{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hove:hover{
+    background-color: #C6EBC5;
+}
+.hove:hover i{
+    color: #000;
+}
+.remove-btn{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toolbox-i{
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+/* !............ nav bar end .......... */
+
+
+/* todo ........ modal box css start  ......... */
+.modal-cont{
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #C6EBC5; */
+    height: 50vh;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.textArea-cont{
+    resize: none;
+    height: 100%;
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: #bfdfe0;
+    border-radius: 5px;
+}
+.toolbox-priority-cont2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #484747;
+    border-radius: 5px;
+}
+.color2{
+    height: 15%;
+    width: 80%;
+    border-radius: 2px;
+}
+/* todo ........ modal box css END  ......... */
+
+/* ?.......tasks container domain start......  */
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.ticket-cont{
+    height: 50vh;
+    width: 30%;
+    background-color: #484747;
+    border-radius: 5px;
+    position: relative;
+}
+.ticket-color{
+    height: 2rem;
+}
+.ticket-id{
+    height: 2rem;
+    background-color: #872f71;
+}
+/* .task-area{
+
+} */
+.lock{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket-lock{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+/* ?.......tasks container domain END......  */
