@@ -117,7 +117,7 @@ html, body {
     background-color: #bfdfe0;
     border-radius: 5px;
 }
-.toolbox-priority-cont2{
+.priority-colors-cont{
     height: 100%;
     width: 20%;
     display: flex;
@@ -127,7 +127,7 @@ html, body {
     background-color: #484747;
     border-radius: 5px;
 }
-.color2{
+.priority-color{
     height: 15%;
     width: 80%;
     border-radius: 2px;
